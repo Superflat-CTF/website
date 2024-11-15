@@ -100,6 +100,7 @@ const skillColors = {
   "more web": "bg-yellow-500",
   crypto: "bg-orange-500",
   blockchain: "bg-teal-500",
+  misc: "bg-fuchsia-500",
 };
 
 // Team Data
@@ -155,6 +156,16 @@ const teamMembers: Array<{
     socials: {
       github: "https://github.com/JorianWoltjer",
       ctftime: "https://ctftime.org/user/83640",
+    },
+  },
+  {
+    name: "TechnologicNick",
+    avatar:
+      "https://cdn.discordapp.com/avatars/254340017575559178/88947140f708cde0d598e450fa5089da.webp?size=160",
+    skills: ["web", "misc"],
+    socials: {
+      github: "https://github.com/TechnologicNick",
+      ctftime: "https://ctftime.org/user/148047",
     },
   },
 ];
