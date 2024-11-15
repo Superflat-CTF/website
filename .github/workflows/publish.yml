@@ -29,10 +29,10 @@ jobs:
           cache: "yarn"
       - run: yarn
 
-      - name: Setup Pages ⚙️
-        uses: actions/configure-pages@v4
-        with:
-          static_site_generator: next
+      # - name: Setup Pages ⚙️
+      #   uses: actions/configure-pages@v4
+      #   with:
+      #     static_site_generator: next
 
       - name: Build with Next.js 🏗️
         run: ls -alh . && yarn run build && yarn run build && ls -alh .
