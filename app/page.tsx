@@ -115,7 +115,7 @@ const teamMembers: Array<{
       "https://cdn.discordapp.com/avatars/726347933389422614/bc4d1409ed7fa3daa556272ef7f131bf.webp?size=160",
     skills: ["web", "pwn"],
     socials: {
-      github: "https://github.com/0xjj8",
+      github: "https://github.com/JJ-8/",
       ctftime: "https://ctftime.org/user/96432",
     },
   },
