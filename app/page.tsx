@@ -2,6 +2,8 @@ import Image from "next/image";
 import { Github, Twitter, Flag, LucideProps } from "lucide-react";
 import * as react from "react";
 
+import ctftimeLogo from "../public/ctftime-logo.svg";
+
 const iconMap: Record<
   string,
   react.ForwardRefExoticComponent<
@@ -27,6 +29,22 @@ export default function Home() {
           />
         </div>
         <h1 className="text-4xl font-bold">WE ARE SUPERFLAT</h1>
+        <p className="text-lg mt-2">
+          <a
+            href="https://ctftime.org/team/274071"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:brightness-110"
+          >
+            {/* CTFtime */}
+            <Image
+              src={ctftimeLogo}
+              alt="CTFtime logo"
+              height={30}
+              className="inline-block"
+            />
+          </a>
+        </p>
         <p className="text-lg mt-2">
           Dutch CTF team, affiliated with{" "}
           <a href="https://challengethecyber.nl" className="underline">
