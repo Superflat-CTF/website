@@ -168,4 +168,13 @@ const teamMembers: Array<{
       ctftime: "https://ctftime.org/user/148047",
     },
   },
+  {
+    name: "delta6862",
+    avatar:
+      "https://cdn.discordapp.com/avatars/407861521645830144/33b5bb361c2e922795ac32c3b8424040.webp?size=160",
+    skills: ["web"],
+    socials: {
+      github: "https://github.com/delta6862",
+    },
+  },
 ];
