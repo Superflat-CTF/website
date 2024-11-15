@@ -29,18 +29,13 @@ jobs:
           cache: "yarn"
       - run: yarn
 
-      # - name: Setup Pages ⚙️
-      #   uses: actions/configure-pages@v4
-      #   with:
-      #     static_site_generator: next
-
       - name: Build with Next.js 🏗️
-        run: ls -alh . && yarn run build && ls -alh .
+        run: yarn run build
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./out
 
   deploy:
     environment:
