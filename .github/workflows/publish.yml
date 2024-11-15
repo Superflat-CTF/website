@@ -35,7 +35,7 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
-        run: yarn run build && ls -al dist
+        run: ls -alh . && yarn run build && ls -alh .
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
