@@ -24,6 +24,7 @@ export default function Home() {
             width={660}
             height={660}
             alt="Superflat logo"
+            priority
           />
         </div>
         <h1 className="text-4xl font-bold">WE ARE SUPERFLAT</h1>
