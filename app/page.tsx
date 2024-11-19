@@ -120,6 +120,7 @@ const skillColors = {
   crypto: "bg-orange-500",
   blockchain: "bg-teal-500",
   misc: "bg-fuchsia-500",
+  forensics: "bg-lime-600",
 };
 
 // Team Data
@@ -194,6 +195,35 @@ const teamMembers: Array<{
     skills: ["web"],
     socials: {
       github: "https://github.com/delta6862",
+    },
+  },
+  {
+    name: "yannik9647",
+    avatar:
+      "https://cdn.discordapp.com/avatars/186572995848830987/b55c0d4e7bfd792edf0689f83a25d8ea.webp?size=160",
+    skills: ["rev", "crypto"],
+    socials: {
+      github: "https://github.com/kinnay",
+    },
+  },
+  {
+    name: "perschrijver",
+    avatar:
+      "https://cdn.discordapp.com/avatars/267344345949011968/90603ffa05bfc87a335b562804fb90fd.webp?size=160",
+    skills: ["crypto"],
+    socials: {
+      github: "https://github.com/PerSchrijver",
+      ctftime: "https://ctftime.org/user/148032",
+    },
+  },
+  {
+    name: "m4rk8662",
+    avatar:
+      "https://cdn.discordapp.com/avatars/673887126458466314/08e818464c860cf704f820cdbee33f1f.webp?size=160",
+    skills: ["rev", "forensics"],
+    socials: {
+      github: "https://github.com/PerSchrijver",
+      ctftime: "https://ctftime.org/user/138561",
     },
   },
 ];
