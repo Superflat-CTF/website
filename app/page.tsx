@@ -222,7 +222,7 @@ const teamMembers: Array<{
       "https://cdn.discordapp.com/avatars/673887126458466314/08e818464c860cf704f820cdbee33f1f.webp?size=160",
     skills: ["rev", "forensics"],
     socials: {
-      github: "https://github.com/PerSchrijver",
+      github: "https://github.com/markfijneman",
       ctftime: "https://ctftime.org/user/138561",
     },
   },
